@@ -5,6 +5,8 @@ import { tutorApi } from './server/tutorApi.ts'
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
+  // GitHub Pages serves the app under /joyful-harvest/ (set by the deploy workflow).
+  base: process.env.BASE_PATH ?? '/',
   plugins: [
     react(),
     // Tutor mode only exists where this server runs (your computer), never in

@@ -31,8 +31,23 @@ Runs on your computer only. The API key stays in the local server and never reac
 5. **Publish** writes the files below and bumps the version. **Download file** gives you a file to AirDrop or send by LINE.
 6. **Rewards** lets you edit treats and theme unlocks and their goals, then publish.
 
-Publishing updates the files in `public/`. Phones get them from wherever you host the built app,
-so after publishing, run `npm run build` and deploy again (or send the downloaded file).
+Publishing updates the files in `public/`. To send them to phones, commit and push:
+GitHub Actions rebuilds the site within a few minutes (or send the downloaded file instead).
+
+## Hosting (GitHub Pages)
+
+The student app is live at **https://elliemhwu.github.io/joyful-harvest/**.
+Every push to `main` rebuilds it (`.github/workflows/pages.yml`).
+
+To install it on a phone, open that link once while online, then:
+- **iPhone (Safari):** Share → Add to Home Screen. Open it from the home screen from then on.
+- **Android (Chrome):** menu → Install app (or Add to Home screen).
+
+After that it works offline. It checks for new units each time it opens with internet.
+
+> The repository is public, so anything committed in `public/packs` is public too. Keep units
+> made from copyrighted textbook scans out of it (share them as downloaded files instead), or
+> make the repository private (GitHub Pages on a private repo needs a paid plan).
 
 ## Content files
 
