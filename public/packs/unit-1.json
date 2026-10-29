@@ -1,0 +1,74 @@
+{
+  "id": "unit-1",
+  "version": 2,
+  "title": "A New Start",
+  "titleZh": "新的開始",
+  "items": [
+    { "id": "w-nervous", "kind": "word", "text": "nervous", "pos": "adj.", "zh": "緊張的", "level": 3, "official": true, "example": "I feel nervous before tests." },
+    { "id": "w-city", "kind": "word", "text": "city", "pos": "n.", "zh": "城市", "level": 1 },
+    { "id": "w-job", "kind": "word", "text": "job", "pos": "n.", "zh": "工作", "level": 1 },
+    { "id": "p-by-the-sea", "kind": "phrase", "text": "by the sea", "zh": "在海邊", "level": 2, "example": "We stayed in a hotel by the sea." },
+    { "id": "p-at-first", "kind": "phrase", "text": "at first", "zh": "起初；一開始", "level": 2, "official": true, "example": "At first, I didn't like coffee." },
+    { "id": "w-shy", "kind": "word", "text": "shy", "pos": "adj.", "zh": "害羞的", "level": 2, "official": true, "example": "The shy boy didn't say a word." },
+    { "id": "w-alone", "kind": "word", "text": "alone", "pos": "adv.", "zh": "獨自地", "level": 2, "example": "She walked home alone." },
+    { "id": "w-during", "kind": "word", "text": "during", "pos": "prep.", "zh": "在……期間", "level": 2, "example": "Don't talk during the movie." },
+    { "id": "w-pretend", "kind": "word", "text": "pretend", "pos": "v.", "zh": "假裝", "level": 3, "official": true, "example": "He pretended to be asleep." },
+    { "id": "p-walk-over", "kind": "phrase", "text": "walk over", "zh": "走過來；走過去", "level": 2, "example": "The teacher walked over to my desk." },
+    { "id": "p-show-around", "kind": "phrase", "text": "show (someone) around", "zh": "帶（某人）參觀", "level": 3, "official": true, "example": "Let me show you around the church." },
+    { "id": "w-introduce", "kind": "word", "text": "introduce", "pos": "v.", "zh": "介紹", "level": 3, "official": true, "example": "May I introduce my friend, Ben?" },
+    { "id": "p-little-by-little", "kind": "phrase", "text": "little by little", "zh": "漸漸地；一點一點地", "level": 3, "official": true, "example": "Little by little, my English got better." },
+    { "id": "w-enjoy", "kind": "word", "text": "enjoy", "pos": "v.", "zh": "享受；喜歡", "level": 2, "example": "I enjoy singing in the choir." },
+    { "id": "w-glad", "kind": "word", "text": "glad", "pos": "adj.", "zh": "高興的", "level": 2, "example": "I'm glad you came." },
+    { "id": "p-give-up", "kind": "phrase", "text": "give up", "zh": "放棄", "level": 2, "official": true, "example": "Never give up on your dreams." }
+  ],
+  "grammar": [
+    { "id": "g-used-to", "kind": "grammar", "name": "used to + V", "pattern": "S + used to + 原形動詞", "zh": "表示「過去曾經……（現在已經不是了）」。", "examples": ["I used to be afraid of dogs.", "He used to live in Tainan."], "official": true },
+    { "id": "g-feel-adj", "kind": "grammar", "name": "feel + 形容詞", "pattern": "S + feel + adj.", "zh": "feel 是連綴動詞，後面接形容詞，表示「感覺……」。", "examples": ["I feel tired.", "She felt happy."] },
+    { "id": "g-too-to", "kind": "grammar", "name": "too … to …", "pattern": "S + be + too + adj. + to + V", "zh": "「太……以致於不能……」，句意是否定的。", "examples": ["He is too young to drive.", "The box is too heavy to carry."], "official": true },
+    { "id": "g-it-takes", "kind": "grammar", "name": "It takes time to V", "pattern": "It takes + (時間) + to + V", "zh": "「做某事需要（多少）時間」。", "examples": ["It takes ten minutes to walk to school.", "It takes time to learn English."], "official": true }
+  ],
+  "paragraphs": [
+    {
+      "id": "u1-p1",
+      "cards": ["g-used-to", "p-by-the-sea", "p-at-first", "w-nervous", "g-feel-adj"],
+      "sentences": [
+        { "id": "u1-p1-s1", "text": "Amy used to live in a small town by the sea.", "zh": "艾咪以前住在海邊的一個小鎮。", "marks": [{ "text": "used to", "ref": "g-used-to" }, { "text": "by the sea", "ref": "p-by-the-sea" }] },
+        { "id": "u1-p1-s2", "text": "Last summer, her family moved to Taipei because her father got a new job.", "zh": "去年夏天，因為她爸爸找到新工作，她們全家搬到了台北。", "marks": [{ "text": "job", "ref": "w-job" }] },
+        { "id": "u1-p1-s3", "text": "At first, she felt nervous about everything in the big city.", "zh": "一開始，她對大城市裡的一切都感到緊張。", "marks": [{ "text": "At first", "ref": "p-at-first" }, { "text": "felt nervous", "ref": "g-feel-adj" }, { "text": "nervous", "ref": "w-nervous" },{ "text": "city", "ref": "w-city" }] }
+      ],
+      "questions": [
+        { "id": "u1-p1-q1", "type": "choice", "prompt": "Where did Amy live before?", "options": ["In Taipei", "In a small town by the sea", "In a big city", "In another country"], "answer": 1 },
+        { "id": "u1-p1-q2", "type": "choice", "prompt": "「Amy used to live in a small town.」的意思是？", "options": ["艾咪現在住在小鎮", "艾咪以前住在小鎮", "艾咪將要住在小鎮", "艾咪習慣住在小鎮"], "answer": 1 },
+        { "id": "u1-p1-q3", "type": "order", "prompt": "排出正確的句子：一開始，她感到緊張。", "chunks": ["At first,", "she", "felt", "nervous."] }
+      ]
+    },
+    {
+      "id": "u1-p2",
+      "cards": ["g-too-to", "w-shy", "w-alone", "w-during", "w-pretend", "p-walk-over"],
+      "sentences": [
+        { "id": "u1-p2-s1", "text": "On her first day, Amy was too shy to talk to anyone.", "zh": "第一天，艾咪害羞到不敢跟任何人說話。", "marks": [{ "text": "too shy to", "ref": "g-too-to" }, { "text": "shy", "ref": "w-shy" }] },
+        { "id": "u1-p2-s2", "text": "She sat alone during lunch and pretended to read a book.", "zh": "午餐時她獨自坐著，假裝在看書。", "marks": [{ "text": "alone", "ref": "w-alone" }, { "text": "during", "ref": "w-during" }, { "text": "pretended", "ref": "w-pretend" }] },
+        { "id": "u1-p2-s3", "text": "Then a girl named Lily walked over and asked, \"Can I sit with you?\"", "zh": "接著，一個名叫莉莉的女孩走過來問：「我可以跟你坐嗎？」", "marks": [{ "text": "walked over", "ref": "p-walk-over" }] }
+      ],
+      "questions": [
+        { "id": "u1-p2-q1", "type": "choice", "prompt": "Why didn't Amy talk to anyone on her first day?", "options": ["She was sick.", "She was too shy.", "She was reading.", "She didn't like them."], "answer": 1 },
+        { "id": "u1-p2-q2", "type": "choice", "prompt": "「He is too tired to walk.」的意思是？", "options": ["他累了但還是走路", "他太累了，走不動", "他走路走得很累", "他喜歡走路"], "answer": 1 },
+        { "id": "u1-p2-q3", "type": "order", "prompt": "排出正確的句子：她假裝在看書。", "chunks": ["She", "pretended", "to read", "a book."] }
+      ]
+    },
+    {
+      "id": "u1-p3",
+      "cards": ["p-show-around", "w-introduce", "p-little-by-little", "w-enjoy", "g-it-takes", "w-glad", "p-give-up"],
+      "sentences": [
+        { "id": "u1-p3-s1", "text": "Lily showed Amy around the school and introduced her to some friends.", "zh": "莉莉帶艾咪參觀學校，並把她介紹給一些朋友。", "marks": [{ "text": "showed Amy around", "ref": "p-show-around" }, { "text": "introduced", "ref": "w-introduce" }] },
+        { "id": "u1-p3-s2", "text": "Little by little, Amy began to enjoy her new life.", "zh": "漸漸地，艾咪開始享受她的新生活。", "marks": [{ "text": "Little by little", "ref": "p-little-by-little" }, { "text": "enjoy", "ref": "w-enjoy" }] },
+        { "id": "u1-p3-s3", "text": "Now she knows that it takes time to make friends, and she is glad that she didn't give up.", "zh": "現在她知道交朋友需要時間，她很高興自己沒有放棄。", "marks": [{ "text": "it takes time to", "ref": "g-it-takes" }, { "text": "glad", "ref": "w-glad" }, { "text": "give up", "ref": "p-give-up" }] }
+      ],
+      "questions": [
+        { "id": "u1-p3-q1", "type": "choice", "prompt": "What did Lily do for Amy?", "options": ["She gave Amy a book.", "She showed Amy around the school.", "She moved to Taipei.", "She sat alone."], "answer": 1 },
+        { "id": "u1-p3-q2", "type": "choice", "prompt": "What did Amy learn?", "options": ["It takes time to make friends.", "Big cities are boring.", "Reading is fun.", "Lunch is too short."], "answer": 0 },
+        { "id": "u1-p3-q3", "type": "order", "prompt": "排出正確的句子：交朋友需要時間。", "chunks": ["It takes", "time", "to make", "friends."] }
+      ]
+    }
+  ]
+}

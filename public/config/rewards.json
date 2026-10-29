@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "rewards": [
+    { "id": "r-ocean", "title": "Ocean mist theme", "icon": "palette", "kind": "theme", "themeId": "ocean", "goal": { "type": "paragraphs", "count": 3 } },
+    { "id": "r-cake", "title": "A piece of handmade cake", "icon": "cake", "kind": "tutor", "goal": { "type": "streak", "days": 7 }, "note": "Show this at your next lesson" },
+    { "id": "r-peach", "title": "Peach dusk theme", "icon": "palette", "kind": "theme", "themeId": "peach", "goal": { "type": "unitComplete", "unitId": "unit-1" } },
+    { "id": "r-tea", "title": "Bubble tea treat", "icon": "cup", "kind": "tutor", "goal": { "type": "wordsMastered", "count": 30 }, "note": "Show this at your next lesson" },
+    { "id": "r-lofi", "title": "Lo-fi night theme", "icon": "palette", "kind": "theme", "themeId": "lofi", "goal": { "type": "streak", "days": 14 } }
+  ]
+}

@@ -1,0 +1,46 @@
+/* Tutor mode is a desktop tool: wider layout, same Matcha tokens. */
+.tutor { max-width: 1040px; margin: 0 auto; padding: 20px 24px 60px; display: flex; flex-direction: column; gap: 16px; }
+.tutor-head { display: flex; justify-content: space-between; align-items: center; }
+.tutor-logo { width: 28px; height: 28px; border-radius: 8px; background: var(--accent); color: var(--onAccent); display: inline-flex; align-items: center; justify-content: center; }
+.link { background: none; border: none; padding: 0; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; color: var(--text); text-decoration: none; }
+.link.small { font-size: 13px; font-weight: 400; color: var(--muted); }
+.banner { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 10px 14px; font-size: 14px; }
+.banner.warn { border-color: var(--gold); }
+.banner ul { margin: 8px 0 0; padding-left: 18px; }
+.code { background: var(--bg); padding: 10px 14px; border-radius: 10px; font-family: ui-monospace, monospace; }
+.wrap { flex-wrap: wrap; }
+.field { display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600; }
+.field .input, .field textarea { font-weight: 400; }
+.tutor .grid2 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.tutor .btn:disabled { opacity: .5; }
+.title-input { font-size: 22px; font-weight: 600; margin-bottom: 6px; width: min(420px, 100%); }
+.tabs { display: flex; gap: 6px; border-bottom: 1px solid var(--border); }
+.tab { background: none; border: none; padding: 10px 14px; color: var(--muted); font-weight: 600; border-bottom: 2px solid transparent; }
+.tab.on { color: var(--text); border-bottom-color: var(--accent); }
+.reading.preview { font-size: 17px; line-height: 1.9; background: var(--bg); border-radius: 12px; padding: 12px 14px; }
+.hl-missing { background: #f6d5cc; }
+details > summary { cursor: pointer; padding: 4px 0; }
+.sentence-edit { border-left: 3px solid var(--border); padding-left: 12px; display: flex; flex-direction: column; gap: 6px; }
+.sentence-edit textarea { resize: vertical; }
+.zh-input { color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.chip { display: inline-flex; align-items: center; gap: 4px; background: var(--word); border-radius: 999px; padding: 3px 4px 3px 10px; font-size: 13px; }
+.chip.bad { background: #f6d5cc; }
+.chip button { background: none; border: none; padding: 0 6px; color: var(--muted); }
+.add-mark { display: inline-flex; gap: 4px; }
+.add-mark .input, .chips select.input { padding: 4px 8px; font-size: 13px; }
+.question-edit { background: var(--bg); border-radius: 12px; padding: 10px; display: flex; flex-direction: column; gap: 6px; }
+.option-edit { justify-content: flex-start; }
+.table-wrap { overflow-x: auto; padding: 8px; }
+table.items { border-collapse: collapse; width: 100%; font-size: 14px; }
+table.items th { text-align: left; color: var(--muted); font-weight: 600; padding: 6px; }
+table.items td { padding: 4px; vertical-align: top; }
+table.items .input { width: 100%; padding: 6px 8px; }
+.input.narrow { width: 80px; }
+.tiny { font-size: 11px; }
+.mono { font-family: ui-monospace, monospace; }
+.json { min-height: 60vh; font-size: 12px; }
+.reward-edit .input { flex: 0 1 auto; }
+.icon-pick { display: inline-flex; gap: 4px; }
+.icon-pick button { background: var(--bg); border: 1.5px solid transparent; border-radius: 10px; padding: 6px; color: var(--gold); display: inline-flex; }
+.icon-pick button.on { border-color: var(--accent); }

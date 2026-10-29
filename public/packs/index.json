@@ -1,0 +1,6 @@
+{
+  "units": [
+    { "id": "unit-1", "version": 2, "url": "packs/unit-1.json", "title": "A New Start" }
+  ],
+  "rewards": { "version": 1, "url": "config/rewards.json" }
+}
